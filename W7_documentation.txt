@@ -1,0 +1,13 @@
+WEEK 7 - TUTORIAL 7 DOCUMENTATION
+
+1. IDENTIFIED BUGS IN THE ORIGINAL TEMPLATE:
+   - 'main.py' lacked the correct import statement to connect with 'food_order.py'.
+   - 'main.py' lacked input validation, allowing negative prices or quantities which causes invalid orders.
+   - 'main.py' did not handle potential ValueError exceptions if a user typed letters instead of numbers.
+   - 'food_order.py' was entirely missing its logic and return statements.
+
+2. FIXES APPLIED:
+   - Imported 'calculate_total' from 'food_order' into 'main.py'.
+   - Added conditional logic in 'food_order.py' to return "invalid price" or "invalid quantity" strings if data is less than or equal to zero.
+   - Wrapped 'main.py' inputs in a try-except block to catch invalid data type entries.
+   - Implemented 5 additional requested pytest functions in 'test_food_order.py' to verify handling of correct totals and invalid inputs.
