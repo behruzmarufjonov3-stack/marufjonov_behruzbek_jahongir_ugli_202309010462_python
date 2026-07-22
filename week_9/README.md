@@ -12,3 +12,10 @@ The IT Helpdesk Ticket Registration System is a modular Python application desig
 2. Navigate to the `week_9` directory:
    ```bash
    cd week_9
+
+## 4. Demonstration
+<img width="800" height="425" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/891b7b7a-3433-4d92-a470-34718e060895" />
+
+
+
+
